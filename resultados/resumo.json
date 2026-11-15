@@ -1,0 +1,42 @@
+{
+  "registros_validos": 143450,
+  "participacao_horas_sol": 0.3165821673435272,
+  "pico_noite_sobre_media": 1.5176120089048752,
+  "participacao_usos": {
+    "cozinha": 0.0620425691633333,
+    "lavanderia": 0.07213399639703774,
+    "aquecimento_agua_e_clima": 0.3560555553798035
+  },
+  "tarifa_com_impostos": 0.9626585365853657,
+  "consumo_ano_kwh": 2210.3999999999996,
+  "gasto_ano": 2127.860429268292,
+  "emissao_ano_kg": 85.10039999999998,
+  "eficiencia": {
+    "alternativa": "A - Banho mais curto e lâmpadas LED",
+    "investimento": 60.0,
+    "energia_rede_evitada_kwh": 294.3725,
+    "economia_ano": 283.3802000609756,
+    "gasto_final_ano": 1844.4802292073166,
+    "retorno_anos": 0.21172968325623898,
+    "emissao_evitada_kg": 11.33334125,
+    "detalhe_chuveiro_kwh": 228.6725,
+    "chuveiro_atual_kwh": 609.7933333333334,
+    "chuveiro_participacao": 0.27587465315478354,
+    "detalhe_lampadas_kwh": 65.7
+  },
+  "solar": {
+    "alternativa": "B - Energia solar fotovoltaica",
+    "investimento": 5973.0,
+    "potencia_kwp": 1.65,
+    "geracao_kwh": 2100.470625,
+    "energia_rede_evitada_kwh": 1850.3999999999996,
+    "economia_ano": 1553.1889496628482,
+    "gasto_final_ano": 574.671479605444,
+    "retorno_anos": 3.8456364251732302,
+    "emissao_evitada_kg": 80.8681190625,
+    "emissao_ciclo_vida_paineis_kg": 86.119295625,
+    "creditos_sobrando_kwh": 250.07062500000012
+  },
+  "solar_pior_retorno": 4.343814830114129,
+  "solar_melhor_retorno": 2.700071528120036
+}

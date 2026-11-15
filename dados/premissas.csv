@@ -1,0 +1,24 @@
+chave;valor;unidade;tipo;fonte
+consumo_mensal;184.2;kWh/mês;real público;EPE, Mercado de energia elétrica, IV tri 2024, consumo médio residencial no Sudeste
+tarifa_sem_impostos;0.78938;R$/kWh;real público;Enel SP B1 residencial: TUSD 0,47242 + TE 0,31696, REH ANEEL 3.596/2026, vigente desde 04/07/2026
+aliquota_impostos;0.18;fração;estimado;ICMS de 12% (faixa de 91 a 200 kWh) + PIS/COFINS de cerca de 6%, varia por mês e faixa
+disponibilidade;30;kWh/mês;real público;Custo de disponibilidade da ligação monofásica, regra da ANEEL
+fio_b;0.20;R$/kWh;estimado;Valor aproximado adotado para o estudo, confirmar na tarifa homologada da distribuidora
+fio_b_percentual;0.60;fração;real público;Lei 14.300/2022: 60% do Fio B sobre a energia compensada em 2026
+potencia_modulo;550;W;estimado;Módulo residencial comum no mercado
+quantidade_modulos;3;unidade;estimado;Escolhido para cobrir o consumo acima do mínimo de 30 kWh
+desempenho;0.75;fração;estimado;Performance ratio típico adotado para perdas de sistema
+custo_wp;3.62;R$/Wp;real público;Greener, Estudo Estratégico GD 2025, preço médio residencial por Wp,  sistemas pequenos tendem a custar mais por Wp
+custo_wp_baixo;2.57;R$/Wp;real público;Solfácil, Radar, 1º trimestre de 2026, preço médio residencial
+manutencao;0.01;fração do investimento/ano;estimado;Limpeza e inspeção, não inclui troca do inversor
+fator_rede;0.0385;kgCO2/kWh;real público;MCTI/SIRENE, fator médio do SIN em 2023 (38,5 kg/MWh)
+fator_solar;0.041;kgCO2/kWh;real público;IPCC AR5 (2014), Anexo III, mediana de ciclo de vida da fotovoltaica em telhado (usado só como comparação)
+chuveiro_w;3500;W;estimado;Potência efetiva na posição verão,  em São Paulo, 83,7% usam sempre essa posição (Eletrobras/Procel, PPH 2019, Tabela 378)
+banhos_dia;3.58;banhos/dia;real público;Média de usos do chuveiro por dia em São Paulo (Eletrobras/Procel, PPH 2019, Tabela 366)
+banho_atual;8;min;estimado;Ponto médio da faixa mais comum, de 6 a 10 minutos, citada por 59,5% em São Paulo (PPH 2019, Tabela 367)
+banho_novo;5;min;estimado;Meta da recomendação, igual ao limite da faixa até 5 minutos da PPH 2019
+lampadas;6;unidade;estimado;Casa de referência
+lampada_atual_w;15;W;estimado;Lâmpada fluorescente compacta
+lampada_led_w;9;W;estimado;Lâmpada LED de fluxo luminoso parecido
+horas_lampada;5;h/dia;estimado;Uso adotado
+custo_led;10;R$/unidade;estimado;Preço de mercado adotado
