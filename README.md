@@ -109,7 +109,3 @@ Os cenários de sensibilidade estão em `resultados/sensibilidade_solar.csv`, e 
 - IPCC. AR5, Grupo de Trabalho III, Anexo III: https://www.ipcc.ch/report/ar5/wg3/
 - UCI. Individual Household Electric Power Consumption: https://archive.ics.uci.edu/dataset/235/individual+household+electric+power+consumption
 - Eletrobras/Procel. Pesquisa de Posse e Hábitos de Uso de Equipamentos Elétricos 2019, São Paulo: https://eletrobras.com/pt/AreasdeAtuacao/ESTADOS_SAO_PAULO.pdf
-
-## Testes com usuários
-
-O roteiro e as tabelas dos testes estão em `testes/registro_testes_usuarios.md` e devem ser preenchidos com os testes reais. A saída real de uma execução do assistente está em `testes/evidencia_execucao.txt`.
